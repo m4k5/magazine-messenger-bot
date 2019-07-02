@@ -1,1 +1,1 @@
-web: python magazine_messenger_bot/manage.py runserver
+web: python manage.py runserver
