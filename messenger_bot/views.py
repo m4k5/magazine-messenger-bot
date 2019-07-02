@@ -4,8 +4,8 @@ from os import environ
 from .models import Subscriber
 
 # You have to specify them in environmental variables
-ACCESS_TOKEN = environ['ACCESS_TOKEN']
-VERIFY_TOKEN = environ['VERIFY_TOKEN']
+ACCESS_TOKEN = environ.get('ACCESS_TOKEN')
+VERIFY_TOKEN = environ.get('VERIFY_TOKEN')
 bot = Bot(ACCESS_TOKEN)
 
 
